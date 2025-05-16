@@ -1,0 +1,124 @@
+•{
+    margin: ø;
+    padding: ø;
+    box-sizing: border-box;
+}
+/*header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    border-bottom: solid rgb(154,255, 0);
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(0, 255, 132, 0.518);
+}*/
+header{
+       display: flex;
+       justify-content: flex-end;
+       border: solid black;
+       padding: 20px;
+       align-items: center;
+       width: 100%;
+       height: 40px;
+       background-color: aqua;
+}
+header .logo{
+    display: flex;
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+header nav{
+    display: flex;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight:bold; 
+}
+
+header nav a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+/*Ma pge de connexion
+.contenaire{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}*/
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    row-gap: 5px;
+    height: 50vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.content{
+    width: 300px;
+    border: solid orangered;
+    color: black;
+    font-size: 22px;
+    padding: 20px 10px 10px;
+    transition: 4.5s;
+    margin-left: 20%;
+}
+::placeholder{
+    color: black;
+}
+.input_box{
+    position: relative;
+    width: 300px;
+    margin-top: 30px;
+}
+.input_box input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid orangered;
+    padding: 20px 10px 10px;
+}
+input[type="submit"]{
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 20px;
+input[type="submit"]:hover{
+    cursor: pointer;
+    transition: 1.8s;
+    background: orangered;
+    border-radius: 20px;
+    width: 100%;
+}
+.contenaire form .mdpo{
+    padding-left: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+ 
+    color: orangered;
+}
+.contenaire form .mdpo:hover{
+    cursor: pointer;
+    transition: 1.8s;
+    background: orangered;
+    border-radius: 20px;
+    color: black;
+}
